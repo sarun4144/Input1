@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import FormValidation from './form-validation';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Web Development Quiz</h1>
-    </div>
+   
+      <FormValidation/>
+    
   );
 }
 
